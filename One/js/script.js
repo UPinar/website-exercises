@@ -16,6 +16,7 @@ function changeScreen(e){
     
     headerContainer.style.height = '100%'
     logoContainer.style.justifyContent='center'
+    imageContainer.style.display = 'flex'
     imageContainer.style.height = '30rem';
     imageContainer.style.width = '30rem';
     
@@ -24,6 +25,7 @@ function changeScreen(e){
     img.style.cursor = 'default'
 
     menuLink.style.opacity = '1'
+    menuLink.style.display='block'
     menuContainer.style.display ='grid'
 }
 
