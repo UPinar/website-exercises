@@ -36,7 +36,7 @@ img {
   grid-template-rows: repeat(6, 1fr);
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 100%;
-  /* display: none; */
+  visibility: hidden;
 }
 
 .menu-container .box {
@@ -83,10 +83,12 @@ img {
   grid-column: 3 / span 2;
   grid-row: 3 / span 2;
   border-radius: 100%;
+  visibility: visible;
 }
 
 .menu-container .box-5 img {
   border-radius: 100%;
+  cursor: pointer;
 }
 
 .menu-container .box:hover {
@@ -158,6 +160,7 @@ img {
   .menu-container .box-5 .image-container {
     width: 25rem;
     border-radius: 100%;
+    /* cursor: pointer; */
   }
 
   .menu-container :nth-child(1) {
